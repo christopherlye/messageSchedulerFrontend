@@ -1,0 +1,17 @@
+/* .MessagesTitle {
+  text-align: left;
+} */
+.MessagesDiv {
+  padding: 32px;
+  width: 40%;
+  list-style: none;
+  margin: 10px auto; /* can change to 0 and it will go left */
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+}
+
+.Messages {
+  padding: 0;
+}

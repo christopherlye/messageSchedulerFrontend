@@ -1,0 +1,48 @@
+.NewMessageDiv {
+  margin-bottom: 50px;
+}
+
+.NewMessage {
+  margin: 2rem;
+  text-align: center;
+}
+
+.InputBox {
+  outline: none;
+  width: 160px;
+  height: 32px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Button {
+  cursor: pointer;
+  padding: 16px;
+  background-color: rgb(55, 55, 235);
+  color: whitesmoke;
+  margin-left: 10px;
+  transition-duration: 0.5s;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 8px 8px 16px rgb(223, 223, 223), 2px 2px 4px rgb(85, 85, 85);
+  outline: none;
+}
+
+.Button:hover {
+  background-color: rgb(109, 109, 218);
+  transition-duration: 0.5s;
+}
+
+.Message {
+  padding: 32px;
+  width: 30%;
+  list-style: none;
+  margin: 10px auto; /* can change to 0 and it will go left */
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+}
