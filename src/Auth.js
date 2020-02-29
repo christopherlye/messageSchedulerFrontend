@@ -33,7 +33,7 @@ class Auth extends Component {
     const loginDetails = { username: username, password: password };
 
     axios
-      .post("http://localhost:5000/verify", loginDetails)
+      .post("https://mssched-backend.herokuapp.com/verify", loginDetails)
       .then(response => {
         console.log(response.data);
         let res = response.data;
@@ -54,7 +54,7 @@ class Auth extends Component {
   submitPinHandler = () => {
     let frontEndPin = this.state.twoFactor;
     axios
-      .get(`http://localhost:5000/verify-pin/${frontEndPin}`)
+      .get(`https://mssched-backend.herokuapp.com/verify-pin/${frontEndPin}`)
       .then(response => {
         // console.log(response.data);
         this.setState(

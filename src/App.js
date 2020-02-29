@@ -32,7 +32,7 @@ class App extends Component {
 
   componentDidMount = () => {
     axios
-      .put(`http://localhost:5000/login/${this.props.token}`, {
+      .put(`https://mssched-backend.herokuapp.com/login/${this.props.token}`, {
         isLoggedIn: true
       })
       .then(response => {
@@ -44,7 +44,7 @@ class App extends Component {
 
     console.log(this.props.token);
     axios
-      .get(`http://localhost:5000/messages/${this.props.token}`)
+      .get(`https://mssched-backend.herokuapp.com/messages/${this.props.token}`)
       .then(response => {
         // get the ID of latest message that is not isArchived
         let [autoSelectedMsgID] = response.data
@@ -118,7 +118,10 @@ class App extends Component {
       updatedAt: new Date()
     };
     axios
-      .post(`http://localhost:5000/messages/${this.props.token}/new`, newItem)
+      .post(
+        `https://mssched-backend.herokuapp.com/messages/${this.props.token}/new`,
+        newItem
+      )
       .then(response => {
         console.log(response);
         const updatedList = lodash.cloneDeep(
@@ -235,7 +238,7 @@ class App extends Component {
     };
     axios
       .put(
-        `http://localhost:5000/messages/${this.props.token}/edit/${msgID}`,
+        `https://mssched-backend.herokuapp.com/messages/${this.props.token}/edit/${msgID}`,
         updatedMessage
       )
       .then(response => {
@@ -287,7 +290,7 @@ class App extends Component {
 
     axios
       .put(
-        `http://localhost:5000/messages/${this.props.token}/edit/${msgID}`,
+        `https://mssched-backend.herokuapp.com/messages/${this.props.token}/edit/${msgID}`,
         dataToArchive
       )
       .then(response => {
