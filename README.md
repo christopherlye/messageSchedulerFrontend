@@ -1,7 +1,7 @@
 <h1 align="center">The Message Scheduler ©</h1>
 <p align="center">The Message Scheduler © : An SMS reminder app that sends messages on schedule</p>
 <br>
-<p align="center"><a href=""><img src="" alt="The Message Scheduler ©" width="100%"></a></p>
+<p align="center"><a href="https://mssched-frontend.herokuapp.com/"><img src="https://github.com/christopherlye/messageSchedulerFrontend/blob/master/assets/messageScheduler%20banner.jpg" alt="The Message Scheduler ©" width="100%"></a></p>
 
 ---
 
@@ -18,6 +18,8 @@
 ---
 
 ## Approach
+
+<a href="https://mssched-frontend.herokuapp.com/"><img src="https://github.com/christopherlye/messageSchedulerFrontend/blob/master/assets/trello%20planning.jpg" alt="Trello planning" width="100%"></a>
 
 In summary:
 
