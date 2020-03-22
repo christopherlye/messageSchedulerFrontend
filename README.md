@@ -1,68 +1,137 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">The Message Scheduler ©</h1>
+<p align="center">The Message Scheduler © : An SMS reminder app that sends messages on schedule</p>
+<br>
+<p align="center"><a href=""><img src="" alt="The Message Scheduler ©" width="100%"></a></p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Inspiration
 
-### `yarn start`
+<p align="justify">I have always believed in automation. Doing something menial over and over again is tedious and time-consuming. Why not apply the DRY (Don't Repeat Yourself) principle to real-life?</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="justify">Having worked on my previous wedding RSVP app, I wanted to also figure out how the integration with SMSes worked. So I made the decision to build a message scheduler app which can help with reminding my wedding guests about the important date.</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="justify">I also saw that this prototype has the potential to scale further as I could also schedule messages for other events.</p>
 
-### `yarn test`
+<p align="justify">Usually forgetting about upcoming family and friends' birthdays / planning an event? Consider putting these messages on schedule while you sit back, relax, and watch your code do the work for you!</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## Approach
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In summary:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Wireframe how the app should look like
+   - Map out on pen and paper
+   - Plan out tasks on Trello
+2. Create backend using MVC framework
+   - Model
+     - message: list of messages
+     - auth: authentication of user
+   - View
+     - edit / new / scheduled message components
+   - Controller
+     - messages: CRUD functionality
+3. Create frontend
+   - Integrate with Twilio service
+   - Come up with my own SMS OTP authentication
+4. Add styles to the app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Pre-requisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- A working browser
+- A laptop / tablet / desktop
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Steps
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+These are the installation steps if you would like to view the project locally:
 
-## Learn More
+<details>
+<summary>Running Locally:</summary>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Step 1: Clone the repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git clone https://github.com/christopherlye/messageSchedulerFrontend.git
+```
 
-### Code Splitting
+Step 2: Install npm dependencies
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
+npm i
+```
 
-### Analyzing the Bundle Size
+Step 3: Start the React app
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```
+npm start
+```
 
-### Making a Progressive Web App
+</details>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+#
 
-### Advanced Configuration
+Viewing Online:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+[Click to view!](https://mssched-frontend.herokuapp.com/)
 
-### Deployment
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Roadmap
 
-### `yarn build` fails to minify
+### Ideas
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Extend the app to multi-users
+- Integrate with JSON web tokens for login
+- Create the other backend models
+- Style the entire layout using CSS grid
+- Integrate with Gmail
+- Integrate with Google Calendar
+
+---
+
+## TechStack
+
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+- expressJS
+- mongoDB
+- mongoose
+- Twilio
+- node cron
+- moment
+
+---
+
+## Support
+
+### Known Issues / Feedback
+
+- Currently the app is only usable by me as I have yet to extend it to multiple users
+- The backend architecture is not available for viewing right now (feel free to drop me a note on LinkedIn if you have any questions)
+
+---
+
+## Authors
+
+- Christopher Lye
+
+---
+
+## Acknowledgements
+
+A shout-out to all my instructors, Henry, Herda, and Bryan at GA, the Facebook 2.0 team, and my fellow classmates - all of whom have been an inspiration to me - either in their perserverance overcoming their own coding challenges, or simply sharing a bit of what they have learnt along the way.
+
+---
+
+## License
+
+| S/N | License                                         |
+| --- | ----------------------------------------------- |
+| 1   | [MIT](https://choosealicense.com/licenses/mit/) |
