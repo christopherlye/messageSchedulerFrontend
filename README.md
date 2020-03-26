@@ -7,13 +7,13 @@
 
 ## Inspiration
 
-<p align="justify">I have always believed in automation. Doing something menial over and over again is tedious and time-consuming. Why not apply the DRY (Don't Repeat Yourself) principle to real-life?</p>
+<p align="justify">I have always believed in automation. Doing something menial over and over again is tedious and time-consuming, even if it were an important task. Why not apply the DRY (Don't Repeat Yourself) principle to real-life?</p>
 
-<p align="justify">Having worked on my previous wedding RSVP app, I wanted to also figure out how the integration with SMSes worked. So I made the decision to build a message scheduler app which can help with reminding my wedding guests about the important date.</p>
+<p align="justify">As an extension of the wedding RSVP app I previously worked on, I wanted to build a message scheduler app which could customise reminders to my guests about the date and other important information.</p>
 
-<p align="justify">I also saw that this prototype has the potential to scale further as I could also schedule messages for other events.</p>
+<p align="justify">I saw that this prototype has the potential to scale further as I could also schedule messages for other events all in the name of maintaining relationships! </p>
 
-<p align="justify">Usually forgetting about upcoming family and friends' birthdays / planning an event? Consider putting these messages on schedule while you sit back, relax, and watch your code do the work for you!</p>
+<p align="justify">Want to remind family and friends every now and then that you care, especially on birthdays or special occasions? Are there important events that you're planning? Consider putting your personalised messages on schedule, watch the code keep in touch for you, and go get busy with other important things in life!</p>
 
 ---
 
